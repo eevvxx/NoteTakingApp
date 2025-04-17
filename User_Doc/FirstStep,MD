@@ -1,0 +1,149 @@
+Okay, great choice! Let's get your Windows 10 machine set up for Tauri development with React/Vue.
+
+Here are the necessary steps:
+
+1. Install Microsoft C++ Build Tools:
+
+Tauri uses Rust for its backend, and Rust needs the C++ build tools for linking on Windows.
+
+Go to the Visual Studio Downloads page: https://visualstudio.microsoft.com/downloads/
+
+Scroll down to "Tools for Visual Studio" (or look under "Other Tools, Frameworks, and Redistributables").
+
+Find "Build Tools for Visual Studio 2022" (or the latest version) and click Download.
+
+Run the installer (vs_BuildTools.exe).
+
+In the installer window, select the "Workloads" tab.
+
+Check the box for "Desktop development with C++". No other workloads are strictly necessary for Tauri.
+
+Click "Install" in the bottom right. This might take some time and disk space.
+
+You might need to restart your computer after the installation is complete.
+
+2. Install WebView2:
+
+Tauri uses the WebView2 component (based on Microsoft Edge/Chromium) to render your web-based UI (React/Vue) on Windows.
+
+Modern Windows 10/11 versions usually have this pre-installed.
+
+You can double-check or install the Evergreen Bootstrapper from Microsoft's site just to be sure: https://developer.microsoft.com/en-us/microsoft-edge/webview2/#download-section (Download the "Evergreen Bootstrapper"). Run the downloaded file if you got it. If it's already installed, it will tell you.
+
+3. Install Rust:
+
+Tauri's core is written in Rust. You need the Rust compiler (rustc) and package manager (cargo). The easiest way is using rustup.
+
+Go to the official Rust website: https://www.rust-lang.org/tools/install
+
+Download rustup-init.exe for Windows (64-bit).
+
+Run the downloaded rustup-init.exe.
+
+It will likely prompt you in the terminal:
+
+1) Proceed with installation (default)
+2) Customize installation
+3) Cancel installation
+
+
+Press 1 and Enter to proceed with the default installation unless you have specific needs.
+
+Once it's finished, it will say "Rust is installed now. Great!".
+
+Important: Close and reopen any open Command Prompt, PowerShell, or Windows Terminal windows. This ensures the PATH environment variable is updated so Windows can find cargo and rustc.
+
+4. Install Node.js and npm (or Yarn/pnpm):
+
+Even though Tauri uses Rust for the backend, you need Node.js to manage your frontend dependencies (React/Vue, Tailwind, Tiptap) and run the frontend development server and build process.
+
+Go to the official Node.js website: https://nodejs.org/
+
+Download the LTS (Long Term Support) version recommended for most users.
+
+Run the installer and follow the prompts. Accept the defaults unless you have a reason not to. This will install both node and npm (Node Package Manager).
+
+Important: Again, close and reopen any open Command Prompt, PowerShell, or Windows Terminal windows to update the PATH.
+
+(Optional) If you prefer Yarn or pnpm over npm:
+
+Install Yarn: npm install --global yarn
+
+Install pnpm: npm install --global pnpm
+
+5. Verify Installations:
+
+Open a new Command Prompt or PowerShell window.
+
+Check Rust:
+
+rustc --version
+cargo --version
+IGNORE_WHEN_COPYING_START
+content_copy
+download
+Use code with caution.
+Bash
+IGNORE_WHEN_COPYING_END
+
+You should see version numbers printed for both.
+
+Check Node.js and npm:
+
+node --version
+npm --version
+IGNORE_WHEN_COPYING_START
+content_copy
+download
+Use code with caution.
+Bash
+IGNORE_WHEN_COPYING_END
+
+You should see version numbers printed for both. (If you installed yarn/pnpm, check them too: yarn --version / pnpm --version).
+
+You don't need a specific command to verify the C++ Build Tools or WebView2; the Tauri build process will usually complain later if they are missing or misconfigured.
+
+Summary of Requirements:
+
+Microsoft C++ Build Tools (via Visual Studio Installer with "Desktop development with C++" workload)
+
+WebView2 Runtime (usually pre-installed, Evergreen Bootstrapper available)
+
+Rust (via rustup-init.exe)
+
+Node.js LTS (includes npm)
+
+Once you have completed all these steps and verified the installations, your Windows 10 machine is ready!
+
+Next Step: You can now proceed to create your first Tauri project using its CLI, choosing React or Vue with TypeScript when prompted.
+
+
+----
+
+Microsoft Windows [Version 10.0.19044.5608]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Storage\SpeedTools\Mixed\NoteTakingApp>npm create tauri-app@latest
+Need to install the following packages:
+create-tauri-app@4.5.9
+Ok to proceed? (y) y
+
+
+> npx
+> create-tauri-app
+
+✔ Project name · NoteTaking
+✔ Package name · notetaking
+✔ Identifier · com.notetaking.app
+✔ Choose which language to use for your frontend · 
+    TypeScript
+    npm
+✔ Choose your package manager · npm
+✔ Choose your UI template · Vue - (https://vuejs.org/)
+✔ Choose your UI flavor · TypeScript
+
+C:\Storage\SpeedTools\Mixed\NoteTakingApp>cd NoteTaking 
+C:\Storage\SpeedTools\Mixed\NoteTakingApp\NoteTaking>npm install
+
+
+C:\Storage\SpeedTools\Mixed\NoteTakingApp\NoteTaking>npm run tauri dev

@@ -1,0 +1,26 @@
+[
+{
+  "directory": "C:/Storage/SpeedTools/Mixed/NoteTakingApp/build",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/NoteApp.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\NoteApp.dir\\NoteApp_autogen\\mocs_compilation.cpp.obj -c C:\\Storage\\SpeedTools\\Mixed\\NoteTakingApp\\build\\NoteApp_autogen\\mocs_compilation.cpp",
+  "file": "C:/Storage/SpeedTools/Mixed/NoteTakingApp/build/NoteApp_autogen/mocs_compilation.cpp",
+  "output": "CMakeFiles/NoteApp.dir/NoteApp_autogen/mocs_compilation.cpp.obj"
+},
+{
+  "directory": "C:/Storage/SpeedTools/Mixed/NoteTakingApp/build",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/NoteApp.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\NoteApp.dir\\src\\main.cpp.obj -c C:\\Storage\\SpeedTools\\Mixed\\NoteTakingApp\\src\\main.cpp",
+  "file": "C:/Storage/SpeedTools/Mixed/NoteTakingApp/src/main.cpp",
+  "output": "CMakeFiles/NoteApp.dir/src/main.cpp.obj"
+},
+{
+  "directory": "C:/Storage/SpeedTools/Mixed/NoteTakingApp/build",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/NoteApp.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\NoteApp.dir\\src\\MainWindow.cpp.obj -c C:\\Storage\\SpeedTools\\Mixed\\NoteTakingApp\\src\\MainWindow.cpp",
+  "file": "C:/Storage/SpeedTools/Mixed/NoteTakingApp/src/MainWindow.cpp",
+  "output": "CMakeFiles/NoteApp.dir/src/MainWindow.cpp.obj"
+},
+{
+  "directory": "C:/Storage/SpeedTools/Mixed/NoteTakingApp/build",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/NoteApp.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\NoteApp.dir\\NoteApp_autogen\\EWIEGA46WW\\qrc_resources.cpp.obj -c C:\\Storage\\SpeedTools\\Mixed\\NoteTakingApp\\build\\NoteApp_autogen\\EWIEGA46WW\\qrc_resources.cpp",
+  "file": "C:/Storage/SpeedTools/Mixed/NoteTakingApp/build/NoteApp_autogen/EWIEGA46WW/qrc_resources.cpp",
+  "output": "CMakeFiles/NoteApp.dir/NoteApp_autogen/EWIEGA46WW/qrc_resources.cpp.obj"
+}
+]

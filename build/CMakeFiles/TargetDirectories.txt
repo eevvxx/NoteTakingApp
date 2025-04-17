@@ -1,0 +1,5 @@
+C:/Storage/SpeedTools/Mixed/NoteTakingApp/build/CMakeFiles/NoteApp.dir
+C:/Storage/SpeedTools/Mixed/NoteTakingApp/build/CMakeFiles/edit_cache.dir
+C:/Storage/SpeedTools/Mixed/NoteTakingApp/build/CMakeFiles/rebuild_cache.dir
+C:/Storage/SpeedTools/Mixed/NoteTakingApp/build/CMakeFiles/NoteApp_autogen_timestamp_deps.dir
+C:/Storage/SpeedTools/Mixed/NoteTakingApp/build/CMakeFiles/NoteApp_autogen.dir
